@@ -1,0 +1,171 @@
+.bodycolor
+{
+    background: #262626;
+    overflow: auto;
+}
+
+.header  {
+
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width:100% ;
+    box-shadow: none;
+    height: 60px ! important;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.image1,.image2,.image3,.image4,.image5{
+    margin-top: 200px;
+    margin-left: 40px;
+}
+.image2 {
+    margin-top: 80px;
+
+}
+.image3 {
+    margin-top: 10px;
+}
+.image4 {
+    margin-top: 10px;
+
+}
+.image5{
+    margin-top: 10px;
+}
+
+.menu1 {
+    font-size: 150%;;
+    color: red;
+    line-height: 100%;
+    font-weight: 700;
+}
+.menu2 {
+    margin-top: 200px;
+    font-family: Visby;
+    font-size: 90%;
+    font-weight: 800;
+}
+
+.videos {
+    margin-left: 100px;
+    margin-right: 400px;
+    width: 400px;
+    height: 100vh;
+    max-width: 10px;
+}
+
+.sidebar2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #262626;
+    width: 100px;
+    height: 100%;
+    transition: .3s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+.sidebar{
+    position: fixed;
+    top: 50px;
+    left: -600px;
+    margin-left: 100px;
+    background: #262626;
+    width: 250px;
+    height: 100%;
+    transition: .3s;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.active {
+    left: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 20px 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,.2) ;
+}
+.sidebarBtn {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 10px;
+    height: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #262626;
+    border: none;
+    outline: none;
+}
+
+.sidebarBtn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: blue;
+    position: absolute;
+    top: 24px;
+    transition: .3s;
+}
+
+.sidebarBtn span:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background:blue;
+}
+.sidebarBtn span:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    height: 3px;
+    background: blue;
+}
+.sidebarBtn.toggle span {
+    background: transparent;
+}
+.sidebarBtn.toggle  span:before {
+    top:0;
+    transform: rotate(45deg);
+}
+.sidebarBtn.toggle  span:after {
+    top:0;
+    transform: rotate(-45deg);
+}
+
+.texts span {
+    font-size: 43.2px;
+    margin-top:200px ;
+   margin-left: 300px;
+    font-weight: 700;
+color: rgba(255, 255, 255, 0.72);
+    position: fixed;
+
+}

@@ -1,0 +1,75 @@
+
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(eded.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header  {
+
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width:100% ;
+    box-shadow: none;
+    background: #fc466b;
+    height: 60px ! important;
+    overflow: hidden;
+    z-index: 10;
+}
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+}
+.mainInner{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out ;
+    background: linear-gradient(180deg,#fc466b 0%,#3f5efb 100%);
+}
+
+.sidebarMenuInner {
+
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(2555,255,2551,0.10);
+
+
+}
+
+.sidebarMenuInner li {
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.sidebarMenuInner li a {
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    list-style: none;
+}
